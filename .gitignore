@@ -1,0 +1,36 @@
+# Captured data — never commit recordings or exports
+data/
+recordings/
+sessions/
+*.csv
+*.mat
+*.bag
+*.h5
+*.hdf5
+
+# Video / image captures (egocentric footage)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.png
+*.jpg
+*.jpeg
+
+# Firmware / build artifacts
+build/
+*.hex
+*.elf
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
